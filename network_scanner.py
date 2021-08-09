@@ -1,4 +1,19 @@
 #!/usr/bin/env python
+'''
+COMPATIBLE: python2 and python3
+USAGE: Finds all of the devices on a network
+ARGUMENTS:
+    1) -t or --target
+EXAMPLE: python3 network_scanner.py -t 10.0.0.1/24
+IMPROVEMENTS NEEDED:
+    1) Update display when new devices are found
+        To do this we must keep on sending arp packets
+    2) Provide a default argument if one isnt given
+        If argument given
+            ip = argument
+        Else
+            ip = wlan0 gateway_ip/24
+'''
 
 import scapy.all as scapy
 import argparse
@@ -23,20 +38,6 @@ def scan_Method2(ip):
         client_dict = {"ip": element[1].psrc, "mac": element[1].hwsrc}
         clients_list.append(client_dict)
     return clients_list
-
-    '''ls tells us what fields a scapy class has'''
-    #scapy.ls(scapy.ARP())
-    #scapy.ls(scapy.Ether())
-    '''summary gives us a simple details about an object'''
-    #print(arp_request.summary())
-    #print(broadcast.summary())
-    #print(arp_request_broadcast.summary())
-    #print(answered_list.summary())
-    '''show() shows us all the details/fields of each packet'''
-    #arp_request.show()
-    #broadcast.show()
-    #arp_request_broadcast.show()
-    #answered_list.show()
 
 def print_result(results_list):
     print("IP\t\t\tMAC Address")

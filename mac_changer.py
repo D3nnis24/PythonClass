@@ -1,5 +1,12 @@
 #/!usr/bin/env python 
-
+'''
+COMPATIBLE: python2 and python3
+USAGE: Changes the mac address of an interface
+ARGUMENTS:
+    1) -i or --interface
+    2) -m or --mac
+EXAMPLE: python3 mac_changer.py -i wlan0 -m 00:11:22:33:44:55
+'''
 import subprocess
 import optparse
 import re

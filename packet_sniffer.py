@@ -1,4 +1,20 @@
 #!/usr/bin/env python
+'''
+COMPATIBLE: python2 and python3
+USAGE: prints any urls, usernames, and passwords that are processed by http
+    packets must follow through the specified interface
+
+In order to check if a packet has a layer do the following
+packet.haslayer(scapy.layername)
+Note: scapy does not come with an http filter so we must do the following
+packet.haslayer(http.HTTPRequest)
+
+How to access a specific field
+packet[scapy.layer].fieldName
+
+Byte (b) to string
+b.decode() or str(b)
+'''
 import scapy.all as scapy
 from scapy.layers import http
 
@@ -27,22 +43,4 @@ def process_sniffed_packet(packet):
         print("\n\n[+] Possible username/password > " + login_info + "\n\n")
 
 
-
-
 sniff("wlan0")
-
-'''
-Must pip the following for this to work
-#pip install scapy_http
-
-In order to check if a packet has a layer do the following
-packet.haslayer(scapy.layername)
-Note: scapy does not come with an http filter so we must do the following 
-packet.haslayer(http.HTTPRequest)
-
-How to access a specific field 
-packet[scapy.layer].fieldName
-
-Byte (b) to string
-b.decode() or str(b)
-'''
