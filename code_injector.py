@@ -1,4 +1,10 @@
 '''
+CLIENT SIDE ATTACKS: Beef Framework
+    Get the target to run the beef command doing one of the following
+        1)DNS Spoofing
+        2)Inject the hook in browsed pages (need to be MITM)
+        3)Use XSS exploit
+        4)Social engineer the target to open a hook page
 NOTE:
     1) html code is sent in the raw layer of the packet, it is usually compressed
     2) if we look at the http request packet, inside of raw layer there is an

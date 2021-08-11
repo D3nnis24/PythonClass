@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ce82e52-ed3b-4546-a693-d7e3b5a0e46d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/arp_spoof.py" beforeDir="false" afterPath="$PROJECT_DIR$/arp_spoof.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac_changer.py" beforeDir="false" afterPath="$PROJECT_DIR$/mac_changer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network_scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/network_scanner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packet_sniffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/packet_sniffer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_injector.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_injector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/https_downgrade.py" beforeDir="false" afterPath="$PROJECT_DIR$/https_downgrade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace_downloads.py" beforeDir="false" afterPath="$PROJECT_DIR$/replace_downloads.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
