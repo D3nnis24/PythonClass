@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ce82e52-ed3b-4546-a693-d7e3b5a0e46d" name="Changes" comment="">
+    <list default="true" id="3ce82e52-ed3b-4546-a693-d7e3b5a0e46d" name="Changes" comment="updates">
+      <change afterPath="$PROJECT_DIR$/Backdoor/listener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backdoor/reverse_backdoor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Malware/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Malware/download_execute_and_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Malware/execute_and_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attack_ui.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code_injector.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_injector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/https_downgrade.py" beforeDir="false" afterPath="$PROJECT_DIR$/https_downgrade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replace_downloads.py" beforeDir="false" afterPath="$PROJECT_DIR$/replace_downloads.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network_scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/network_scanner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Python.dns_spoof">
     <configuration name="dns_spoof" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -104,5 +111,21 @@
       <updated>1628274867953</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>

