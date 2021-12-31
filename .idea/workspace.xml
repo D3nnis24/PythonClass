@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ce82e52-ed3b-4546-a693-d7e3b5a0e46d" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/Backdoor/listener.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backdoor/reverse_backdoor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Malware/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Malware/download_execute_and_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Malware/execute_and_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backdoor/commandLine.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attack_ui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code_injector.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_injector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/https_downgrade.py" beforeDir="false" afterPath="$PROJECT_DIR$/https_downgrade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network_scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/network_scanner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backdoor/listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backdoor/listener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backdoor/reverse_backdoor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backdoor/reverse_backdoor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arp_spoof.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arpspoof_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_injector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dns_spoof.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/https_downgrade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac_changer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/net_cut.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network_scanner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packet_sniffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/replace_downloads.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +52,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Python&#10;PythonRegExp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backdoor" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Backdoor" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.dns_spoof">
     <configuration name="dns_spoof" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -110,6 +120,14 @@
       <option name="presentableId" value="Default" />
       <updated>1628274867953</updated>
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <created>1629559353012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629559353012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
