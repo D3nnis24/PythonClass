@@ -1,0 +1,38 @@
+                                    mac_changer.py(1)
+----------------------------------------------------------------------------------------------
+subprocess.call
+    UNSAFE:
+        subprocess.call("ifconfig" + user_input, shell=True)
+        Note: if user_input takes in more than one command ex) "wlan0; ls; rm *;" then all of these
+            sys commands will run
+    SAFE:
+        subprocess.call(["ifconfig", interface, "down"])
+        Note: only one sys command can run
+regex rules:
+    To specify a regex rule you must add an r before the quotation marks Ex) r"\w\w"
+python2 vs python3
+    There is a clear distinction b/t bytes and strings
+----------------------------------------------------------------------------------------------
+
+                                    network_scanner.py(2)
+----------------------------------------------------------------------------------------------
+route -n
+    Typing this into the terminal will tell you what your gateway is
+restart service NetworkManager
+    Typing this into the terminal might fix the wifi adapter not connecting
+
+scapy.all Module
+    Methods
+        1) ls(Name of class) #returns a string with all the fields that a scapy class has
+            Ex) scapy.all.ls(scapy.all.ARP())
+        2) srp(Name of packet) # used for sending and receiving packets with custom ethers
+
+    ARP class
+        Methods
+            1) summary() #returns a string summary of the arp object that we just created
+            2) show() #returns all the fields of the current object
+    Ether class
+        Used for setting destination and source ether for sending packets
+        Methods
+            1) show() # returns all the fields of the current object
+----------------------------------------------------------------------------------------------

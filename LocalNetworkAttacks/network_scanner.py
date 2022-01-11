@@ -5,8 +5,9 @@ USAGE: Finds all of the devices on a network
 ARGUMENTS:
     1) -t or --target
 EXAMPLE: python3 network_scanner.py -t 10.0.0.1/24
-Note: If this doesn't work, make sure wired connection is turned off
-SIMILAR Program: net discover
+HOW IT WORKS: Uses arp protocol to discover devices on target network
+TROUBLESHOOTING: If this doesn't work, make sure wired connection is turned off
+
 IMPROVEMENTS NEEDED:
     1) Update display when new devices are found
         To do this we must keep on sending arp packets

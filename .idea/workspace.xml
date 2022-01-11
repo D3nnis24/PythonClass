@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ce82e52-ed3b-4546-a693-d7e3b5a0e46d" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/Notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalNetworkAttacks/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/LocalNetworkAttacks/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalNetworkAttacks/mac_changer.py" beforeDir="false" afterPath="$PROJECT_DIR$/LocalNetworkAttacks/mac_changer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LocalNetworkAttacks/network_scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/LocalNetworkAttacks/network_scanner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Python&#10;PythonRegExp" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="TEXT&#10;Python&#10;PythonRegExp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Backdoor" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640977997189</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updates">
+      <created>1640979856019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640979856019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

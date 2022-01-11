@@ -1,6 +1,6 @@
 #/!usr/bin/env python 
 '''
-COMPATIBLE: python2 and python3
+COMPATIBLE: python3
 USAGE: Changes the mac address of an interface
 ARGUMENTS:
     1) -i or --interface
